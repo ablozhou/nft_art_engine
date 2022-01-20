@@ -10,7 +10,7 @@ const description = "Remember to replace this description";
 const baseUri = "ipfs://QmZK64zsqQq2kLsPujVUsQgxUk5xFUf9jxBFQJ6yP5TELN";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "LYC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://github.com/chengxukateam/nft_art_engine",
   creators: [
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 50,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },

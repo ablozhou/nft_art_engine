@@ -136,7 +136,7 @@ const addMetadata = (_dna, _edition) => {
     date: dateTime,
     ...extraMetadata,
     attributes: attributesList,
-    compiler: "HashLips Art Engine",
+    compiler: "程序咖 NFT Art Engine",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
